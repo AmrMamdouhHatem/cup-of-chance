@@ -259,8 +259,173 @@ gap: 2rem;
 .kenyan-tea p{
     font-size: 18px;
 }
+.certification-body{
+    width: calc(95% / 1 );
+    padding: 15px 0px;
+}
+.certification-body p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    width: calc(100% / 1);
+    padding: 10px;
+    color: #855452;
+}
+.badge img {
+    width: 100px;
+}
+h6 {
+    font-size: 25px;
+}
+
+/* ------------------------Our Selection------------------------------------ */
+.our-selection-text{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+width: 100%;
+text-align: center;
+z-index: 1;
+}
+.our-selection-pic{
+    margin-bottom: 50px;
+}
+.our-selection-pic p {
+    font-size: 21px;
+}
+.our-selection-pic h4 {
+    font-size: 38px;
+}
+
+.ceylon-tea-kinds {
+    background-color:transparent;
+    margin: 0;
+}
+.kind-text {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 1);
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+   
+}
+.ceylon-tea-kinds h4{
+    font-size: 32px;
+    margin: 0;
+    padding: 30px;
+}
+.ceylon-tea-kinds h5{
+    font-size: 25px;
+}
+.ceylon-tea-kinds img{
+    width: 185px;
+}
+
+.ceylon-tea-kinds p{
+   margin-bottom: 5rem;
+   font-size: 20px;
+}
+.kind{
+    flex-direction: column;
+    gap: 1rem;
+}
+.kind:nth-child(odd) {
+    flex-direction:column;
+}
+
+.akbar-field img{
+    width: 100%;
+    height: 170px;
+}
+.akbar-logo img{
+    width: 40%;
+}
+.akbar-logo h4{
+    font-size: 29px;
+    padding: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.our-brands-buttons button{
+    padding: 3px 25px;
+    
+}
+.our-brands-buttons{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 1rem;
+}
+
+/* ------------------------Contact Us------------------------------------ */
 
 
+.contact-us {
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+
+}
+.contact-us-pic{
+    text-align: center;
+
+}
+.contact-us-pic img{
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-us-form {
+    flex-direction: column;
+    align-items: center;
+
+}
+.name{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.address{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.name textarea {
+    
+    width: 100%;
+    height: 50px;
+}
+.name input {
+    
+    width: 100%;
+}
+.contact-us-form  h5 {
+    font-size: 24px;
+}
+
+.address-details h6 {
+    font-size: 18px;
+}
+.address-details {
+    
+    align-items: center;
+    width: 100%;
+   
+}
+.address {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0;
+}
+
+.address-details p {
+    font-size: 16px;
+}
 
 
 
