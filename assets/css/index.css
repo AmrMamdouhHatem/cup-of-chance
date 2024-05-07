@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     
+    
 
    
+}
+a{
+    text-decoration: none;
+    color: var(--main-white);
 }
 body{
     background-color: #F9F8F4;
@@ -32,7 +37,7 @@ h6{
 
 nav{
     width: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     color: var(--main-white);
@@ -127,6 +132,7 @@ section .home-discover button:hover{
     background-color: var(--main-white);
     color: black;
 }
+
 .always-about{
     background-color: #F9F8F4;
     padding: 30px;
@@ -223,6 +229,8 @@ color: #472E2D;
    
 }
 
+/* ------------------------Footer------------------------------------ */
+
 footer{
     width: 100%;
     background-color: #145026;
@@ -298,6 +306,8 @@ footer .language{
     padding: 5px 65px;
     color: #b8b8b8;
 }
+
+/* ------------------------About Us------------------------------------ */
 
 .about-us{
     background-color: #145026;
@@ -465,6 +475,9 @@ footer .language{
 .farmers img{
     width: 100%;
 }
+
+/* ------------------------Manfacturing & Certifications------------------------------------ */
+
 .manufacturing{
     display: flex;
     flex-direction: column;
@@ -615,7 +628,6 @@ width: calc(100%/3);
     position: relative;
     width: calc(100% / 1 );
     margin: auto;
-    margin-top: 30px;
     
 }
 .our-brands-pic::after{
